@@ -7,8 +7,9 @@ function check(){
     var q5=document.quiz.question5.value; 
     var result=document.getElementById('result');
     if (q1=="html") {c++}
-    if (q1=="js") {c++}
-    if (q1=="Yes") {c++}
-    if (q1=="Python") {c++}
-    if (q1=="html") {c++}
+    if (q2=="js") {c++}
+    if (q3=="Yes") {c++}
+    if (q4=="Python") {c++}
+    if (q5=="html") {c++}
+    document.write(c);
 }
