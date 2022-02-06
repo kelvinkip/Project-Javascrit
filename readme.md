@@ -34,4 +34,7 @@ Email: kelvinkipla@gmail.com
 ## license
 
 copyright (c) 2022 [click to view licence](license)
+
+## Figma
+
 My Figma Design [Click to View my design](Figma)
