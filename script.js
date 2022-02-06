@@ -176,10 +176,10 @@ function getAnswers(currentQUestion) {
   
     }
     if (e.target.matches('.true')) {
-      score += 1;
+      score += 20;
   
     } else {
-      score -= 1;
+      score -= 20;
     }
    
   }
