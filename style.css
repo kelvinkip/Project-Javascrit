@@ -5,42 +5,39 @@
 }
 
 body {
-    background: #d0edf0;
+    background: gray;
 }
 
 .orange {
-    background: linear-gradient(145deg, #75bbc3, #8bdfe8) !important;
-    box-shadow: 6px 6px 12px #68a6ae, -6px -6px 12px #9cfaff;
+    background: linear-gradient(145deg, #75c382, #93e88b) !important;
+    box-shadow: 6px 6px 12px #5cb931, -6px -6px 12px #9cfaff;
 }
 
 .box {
     border-radius: 19px;
     padding: 15px 35px;
-    background: linear-gradient(145deg, #dffeff, #bbd5d8);
-    box-shadow: 5px 5px 10px #b7d1d3, -5px -5px 10px #e9ffff;
+    background: linear-gradient(145deg, #92ac8a, green);
+    box-shadow: 5px 5px 10px #c4d3b7, -5px -5px 10px #f3ffe9;
     width: clamp(800px, 80%, 800px);
     margin: 45px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
+    align-items: left;
     transition: margin-top 0.3s ease;
 }
 
 .box .question {
     margin-bottom: 25px;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     width: 100%;
-    color: #365a5e;
+    color: #3d5e36;
     padding: 25px 18px;
     animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .box .answers-box {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 25px;
 }
 
@@ -48,8 +45,8 @@ body {
     animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     cursor: pointer;
     border-radius: 19px;
-    background: linear-gradient(145deg, #cbf7fb, #abd0d4);
-    box-shadow: 6px 6px 12px #a7cbcf, -6px -6px 12px #d5ffff;
+    background: linear-gradient(145deg, #cbd0fb, #abb5d4);
+    box-shadow: 6px 6px 12px #a7bacf, -6px -6px 12px #d5f0ff;
     transition: 0.1s linear;
     display: flex;
     justify-content: center;
@@ -72,7 +69,7 @@ body {
     padding: 15px;
     margin-top: 55px;
     border: none;
-    color: #365a5e;
+    color: #435e36;
     border-radius: 19px;
     background: linear-gradient(145deg, #cbf7fb, #abd0d4);
     box-shadow: 6px 6px 12px #a7cbcf, -6px -6px 12px #d5ffff;
@@ -81,8 +78,8 @@ body {
 
 .nextQuestion:hover {
     border-radius: 19px;
-    background: linear-gradient(145deg, #abd0d4, #cbf7fb);
-    box-shadow: 6px 6px 12px #98b9bc, -6px -6px 12px #e4ffff;
+    background: linear-gradient(145deg, #abd4ab, #d1fbcb);
+    box-shadow: 6px 6px 12px #020202, -6px -6px 12px #0a0a0a;
 }
 
 .true {
@@ -104,29 +101,15 @@ body {
     background: white;
 }
 
-.about-me {
-    border-radius: 5px;
-    width: 300px;
-    margin: auto;
-    color: white;
-    text-align: center;
-    background: #1dc7dc;
-    padding: 7px 18px;
-}
-
-.about-me a {
-    color: white;
-}
-
 .resetBtn {
     width: 145px;
     padding: 15px;
     margin-top: 55px;
     border: none;
-    color: #365a5e;
+    color: #435e36;
     border-radius: 19px;
-    background: linear-gradient(145deg, #cbf7fb, #abd0d4);
-    box-shadow: 6px 6px 12px #a7cbcf, -6px -6px 12px #d5ffff;
+    background: linear-gradient(145deg, #d1fbcb, #b7d4ab);
+    box-shadow: 6px 6px 12px #1dd61d, -6px -6px 12px #d6ffd5;
     transition: 0.1s linear;
 }
 

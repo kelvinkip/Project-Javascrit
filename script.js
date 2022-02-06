@@ -5,7 +5,7 @@ let scoreDisplay = document.querySelector('.score');
 let currentQUestion = 0;
 let score = 0;
 let quizBox = document.querySelector('.box');
-var resetBtn = document.createElement('button');
+var resetBtn = document.createElement('radio');
 let finalSC = document.createElement('h1');
 //questions
 let questions = [{
@@ -111,7 +111,6 @@ let questions = [{
 //function get Answers
 function getAnswers(currentQUestion) {
   
-    //kada dodje do kraja pitanja 
     if (currentQUestion >= questions.length) {
       currentQUestion = 0;
       console.log(currentQUestion);
@@ -135,7 +134,7 @@ function getAnswers(currentQUestion) {
     removeLastQuestion();
     displayQuestion.innerText = questions[currentQUestion].question;
     questions[currentQUestion].answers.forEach((answer) => {
-        const btn = document.createElement('button');
+        const btn = document.createElement('radio');
         btn.classList.add('answer')
         if (answer.correct) {
           btn.classList.add('true');
