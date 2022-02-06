@@ -37,4 +37,4 @@ copyright (c) 2022 [click to view licence](license)
 
 ## Figma
 
-My Figma Design [Click to View my design](Figma)
+My Figma Design [Click to View my design](https://www.figma.com/file/uWF0i2EdkLzeRyO65kKFgL/Untitled?node-id=5%3A2)
