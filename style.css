@@ -48,9 +48,9 @@ body {
     background: linear-gradient(145deg, #cbd0fb, #abb5d4);
     box-shadow: 6px 6px 12px #a7bacf, -6px -6px 12px #d5f0ff;
     transition: 0.1s linear;
-    display: flex;
+    display: left;
     justify-content: center;
-    flex-direction: row-reverse;
+    
     border: none;
     width: 30%;
     padding: 18px 15px;
@@ -115,8 +115,8 @@ body {
 
 .resetBtn:hover {
     border-radius: 19px;
-    background: linear-gradient(145deg, #abd0d4, #cbf7fb);
-    box-shadow: 6px 6px 12px #98b9bc, -6px -6px 12px #e4ffff;
+    background: linear-gradient(145deg, #1f3bd4, #242155);
+    box-shadow: 6px 6px 12px #614eb6, -6px -6px 12px #e7e4ff;
 }
 
 @keyframes fade-in {
@@ -127,4 +127,23 @@ body {
     100% {
         opacity: 1;
     }
+}
+.container{
+    align-items: center;
+    background-image: url("students.jpg");
+    width: 100%;
+    position: relative;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 70vh;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.container2{
+    padding-top: 150px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.container2 em{
+    color: orange;
 }

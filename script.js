@@ -134,7 +134,7 @@ function getAnswers(currentQUestion) {
     removeLastQuestion();
     displayQuestion.innerText = questions[currentQUestion].question;
     questions[currentQUestion].answers.forEach((answer) => {
-        const btn = document.createElement('radio');
+        const btn = document.createElement('button');
         btn.classList.add('answer')
         if (answer.correct) {
           btn.classList.add('true');
@@ -181,6 +181,7 @@ function getAnswers(currentQUestion) {
     } else {
       score -= 1;
     }
+   
   }
   
   
@@ -191,7 +192,7 @@ function getAnswers(currentQUestion) {
   
   
     console.log(score)
-    nextQuestion.innerText = 'Next Qustion'
+    nextQuestion.innerText = 'Next Question'
     getAnswers(currentQUestion);
     currentQUestion += 1;
   
