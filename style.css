@@ -50,7 +50,7 @@ body {
     transition: 0.1s linear;
     display: left;
     justify-content: center;
-    
+    flex-direction: row-reverse;
     border: none;
     width: 30%;
     padding: 18px 15px;
@@ -61,7 +61,7 @@ body {
 .box .answers-box .answer:hover {
     border-radius: 19px;
     background: linear-gradient(145deg, #abd0d4, #cbf7fb);
-    box-shadow: 6px 6px 12px #98b9bc, -6px -6px 12px #e4ffff;
+    box-shadow: 6px 6px 12px #0cca4b, -6px -6px 12px #e4ffff;
 }
 
 .nextQuestion {
@@ -71,14 +71,14 @@ body {
     border: none;
     color: #435e36;
     border-radius: 19px;
-    background: linear-gradient(145deg, #cbf7fb, #abd0d4);
-    box-shadow: 6px 6px 12px #a7cbcf, -6px -6px 12px #d5ffff;
+    background: linear-gradient(145deg, #cbfbdb, #39ee14);
+    box-shadow: 6px 6px 12px #a7cbcf, -6px -6px 12px #13ac46;
     transition: 0.1s linear;
 }
 
 .nextQuestion:hover {
     border-radius: 19px;
-    background: linear-gradient(145deg, #abd4ab, #d1fbcb);
+    background: linear-gradient(145deg, #18a818, #2fcf17);
     box-shadow: 6px 6px 12px #020202, -6px -6px 12px #0a0a0a;
 }
 
